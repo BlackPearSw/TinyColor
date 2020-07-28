@@ -1179,7 +1179,7 @@ function validateWCAG2Parms(parms) {
     return {"level":level, "size":size};
 }
 
-// Node: Export function
+// Node: Export function new
 if (typeof module !== "undefined" && module.exports && typeof angular === 'undefined') {
     module.exports = tinycolor;
 }
