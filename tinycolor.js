@@ -1180,7 +1180,7 @@ function validateWCAG2Parms(parms) {
 }
 
 // Node: Export function
-if (typeof module !== "undefined" && module.exports) {
+if (typeof module !== "undefined" && module.exports && typeof angular === 'undefined') {
     module.exports = tinycolor;
 }
 // AMD/requirejs: Define the module
